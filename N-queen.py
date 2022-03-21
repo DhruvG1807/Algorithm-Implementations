@@ -1,6 +1,4 @@
 #Insert N queens in an NXN board such that no queen attacks the other
-import numpy
-
 
 def issafe(board,row,column):           #check if queen insertion is safe
     
