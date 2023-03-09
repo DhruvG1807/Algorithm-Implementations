@@ -53,6 +53,7 @@ class segment_tree:
 
 print("\nRange Sum:")
 # Range Sum
+#0-based indexing
 st = segment_tree([1,2,3,4,5,6,7,8])
 print(st)
 print(st.query(2,4))
